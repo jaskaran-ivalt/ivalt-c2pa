@@ -77,12 +77,6 @@ Run the container with the appropriate environment variables and port mapping:
 docker run -d --env-file .env -p 3000:3000 ivalt-c2pa-local
 ```
 
-Alternatively, if you want to use the pre-built image from Docker Hub:
-
-```bash
-docker run -d --env-file .env -p 3000:3000 jass4704/ivalt-c2pa:latest
-```
-
 - `-d`: Runs the container in detached mode (in the background).
 - `--env-file .env`: Loads environment variables from the `.env` file.
 - `-p 3000:3000`: Maps port 3000 on your local machine to port 3000 on the container.
