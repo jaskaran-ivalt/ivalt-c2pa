@@ -1,0 +1,1 @@
+FROM jass4704/ivalt-c2pa:latest
