@@ -3,7 +3,7 @@
 
 ![alt text](image.png)
 
-This project involves embedding data, such as a mobile number and name, into images, as well as a verification feature that reads manifest data from an image and sends an authentication request to the iVALT app for biometric verification.
+This project utilizes C2PA to embed data, such as a mobile number and name, into images. It includes a comprehensive verification feature that reads manifest data from the image and sends an authentication request to the iVALT app, facilitating secure biometric verification.
 
 ## Prerequisites
 
